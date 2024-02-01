@@ -2,9 +2,9 @@ library(randomForest)
 library(Boruta)
 library(caret)
 
-source('module/modelRFcross.R')
-source('module/indexcross.R')
-source('module/varBorutacross.R')
+source('modelRFcross.R')
+source('indexcross.R')
+source('varBorutacross.R')
 
 # load genotype and phenotype markers of ASD group
 df.asd = read.csv2('data_asd.csv') 
